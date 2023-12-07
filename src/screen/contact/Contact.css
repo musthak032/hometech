@@ -1,0 +1,65 @@
+.contact-parent{
+    /* width: 100%; */
+    
+ /* margin-bottom: 4%; */
+ padding: 45px;
+ background-color: white;
+ overflow: hidden;
+ 
+}
+.contact-parent h1{
+   text-align: center;
+  
+   margin-bottom: 2%;
+}
+
+.contact-form-container{
+
+    display: flex;
+    flex-wrap: nowrap;
+    
+    flex-direction: column;
+    width: 100%;
+    
+    justify-content: space-between;
+    padding: 2% 10%;
+    gap: 20px;
+}
+.Contact-footer{
+background-color: black;
+display: flex;
+color: white;
+justify-content: center;
+gap: 25px;
+padding: 40px;
+}
+
+
+@media screen and (min-width: 900px) {
+
+    .contact-form-container{
+
+        display: grid;
+        grid-template-columns: .5fr .9fr;
+        grid-template-rows: 1fr minmax(0, .9fr);
+        grid-template-areas:
+          "input1 message "
+          "input2 message "
+          "input3 message ";
+        
+    }
+    .contact-form-container :nth-child(1){
+        grid-area: input1;
+    }
+    .contact-form-container :nth-child(2){
+        grid-area: input2;
+        /* background-color: red; */
+    }
+    .contact-form-container :nth-child(3){
+        grid-area: input3;
+    }
+    .contact-form-container :nth-child(4){
+        grid-area: message;
+    }
+   
+}

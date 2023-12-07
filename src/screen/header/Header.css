@@ -1,0 +1,60 @@
+
+.header{
+    background-color: black;
+    color: white;
+}
+.img{
+    display: none;
+    object-fit: contain;
+    width:25px;
+    
+}
+.img1{
+    display: block;
+    object-fit: contain;
+    width:75px;
+    /* margin-right: 2%; */
+    margin-right: 4%;
+    
+}
+
+
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    /* background-color: black !important; */
+    /* background-color: black !important;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    top: 0;
+    position: fixed !important;
+    z-index: 1000; */
+
+    
+} 
+.header-nav{
+
+ /* background-color: black !important; */
+ background-color: black !important;
+ align-items: center;
+ justify-content: center;
+ height: 100px;
+ top: 0;
+ position: fixed !important;
+ z-index: 1000;
+}
+
+
+@media screen and (min-width: 900px) {
+    .img{
+        display: block;
+        object-fit: contain;
+        width:95px;
+    }
+    .img1{
+        display: none;
+        object-fit: contain;
+        width:25px;
+        
+    }
+  }

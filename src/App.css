@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,74 @@
   to {
     transform: rotate(360deg);
   }
+
+  
 }
+
+
+ 
+.background-img{
+
+  z-index: 1;
+}
+
+.foreground-img{
+
+  z-index: 2;
+
+
+}
+.frontground{
+  z-index: 3;
+}
+
+.primary-heading-white{
+  color: black;
+  text-align: left;
+}
+.primary-text-white{
+  color: black;
+  text-align: left;
+
+}
+
+.primary-text-white-h{
+  color: white;
+  text-align: left;
+
+}
+
+.primary-heading{
+text-align: center;
+color: green;
+
+}
+.card-shodow{
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+ }
+
+
+ /* teams card isze */
+
+ .teams-card{
+  width: 385px;
+ }
+
+ @media screen and (max-width: 900px) {
+
+  
+ .teams-card{
+  width: 290px;
+  padding: 25px;
+ }
+
+   /* //card */
+
+   .d-flex{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+ }
