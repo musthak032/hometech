@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hometech/static/css/main.ae2241d8.css",
-    "main.js": "/hometech/static/js/main.0e4600e5.js",
+    "main.css": "/hometech/static/css/main.94e391a7.css",
+    "main.js": "/hometech/static/js/main.aca999f8.js",
     "static/js/787.1f652984.chunk.js": "/hometech/static/js/787.1f652984.chunk.js",
     "static/media/homhome3e.png": "/hometech/static/media/homhome3e.f018ca76359e511e4d89.png",
     "static/media/home2.png": "/hometech/static/media/home2.bb79a6c320a7f46bf804.png",
@@ -67,12 +67,12 @@
     "static/media/home-banner-background.png": "/hometech/static/media/home-banner-background.585600da7ff85661555e.png",
     "static/media/logo.svg": "/hometech/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/hometech/index.html",
-    "main.ae2241d8.css.map": "/hometech/static/css/main.ae2241d8.css.map",
-    "main.0e4600e5.js.map": "/hometech/static/js/main.0e4600e5.js.map",
+    "main.94e391a7.css.map": "/hometech/static/css/main.94e391a7.css.map",
+    "main.aca999f8.js.map": "/hometech/static/js/main.aca999f8.js.map",
     "787.1f652984.chunk.js.map": "/hometech/static/js/787.1f652984.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae2241d8.css",
-    "static/js/main.0e4600e5.js"
+    "static/css/main.94e391a7.css",
+    "static/js/main.aca999f8.js"
   ]
 }
