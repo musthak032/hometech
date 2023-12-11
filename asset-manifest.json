@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hometech/static/css/main.f9a50ca3.css",
-    "main.js": "/hometech/static/js/main.4a980abb.js",
+    "main.js": "/hometech/static/js/main.82b38c21.js",
     "static/js/787.1f652984.chunk.js": "/hometech/static/js/787.1f652984.chunk.js",
     "static/media/homhome3e.png": "/hometech/static/media/homhome3e.f018ca76359e511e4d89.png",
     "static/media/home2.png": "/hometech/static/media/home2.bb79a6c320a7f46bf804.png",
@@ -84,11 +84,11 @@
     "static/media/slick.woff": "/hometech/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/hometech/index.html",
     "main.f9a50ca3.css.map": "/hometech/static/css/main.f9a50ca3.css.map",
-    "main.4a980abb.js.map": "/hometech/static/js/main.4a980abb.js.map",
+    "main.82b38c21.js.map": "/hometech/static/js/main.82b38c21.js.map",
     "787.1f652984.chunk.js.map": "/hometech/static/js/787.1f652984.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9a50ca3.css",
-    "static/js/main.4a980abb.js"
+    "static/js/main.82b38c21.js"
   ]
 }
