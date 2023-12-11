@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hometech/static/css/main.94e391a7.css",
-    "main.js": "/hometech/static/js/main.aca999f8.js",
+    "main.css": "/hometech/static/css/main.f9a50ca3.css",
+    "main.js": "/hometech/static/js/main.4a980abb.js",
     "static/js/787.1f652984.chunk.js": "/hometech/static/js/787.1f652984.chunk.js",
     "static/media/homhome3e.png": "/hometech/static/media/homhome3e.f018ca76359e511e4d89.png",
     "static/media/home2.png": "/hometech/static/media/home2.bb79a6c320a7f46bf804.png",
@@ -14,9 +14,17 @@
     "static/media/home.png": "/hometech/static/media/home.cde51f2ab3c8369fe717.png",
     "static/media/logo13.jpg": "/hometech/static/media/logo13.f779b7dd1cf554e23003.jpg",
     "static/media/logo12.jpg": "/hometech/static/media/logo12.e38e7b20aaef85829734.jpg",
+    "static/media/20.jpeg": "/hometech/static/media/20.db3c3113ac55459cc3d7.jpeg",
+    "static/media/19.jpeg": "/hometech/static/media/19.1df94c75c22157a9abc0.jpeg",
     "static/media/8.png": "/hometech/static/media/8.bb08634d96c06873deb4.png",
     "static/media/logo14.jpg": "/hometech/static/media/logo14.b19be70d278c096b5927.jpg",
+    "static/media/21.jpeg": "/hometech/static/media/21.9faca3fe20d0d162b031.jpeg",
+    "static/media/15.jpeg": "/hometech/static/media/15.4ab878f63430495b50f1.jpeg",
+    "static/media/14.jpeg": "/hometech/static/media/14.833eb65fc6db8690d5c7.jpeg",
     "static/media/logo28.jpg": "/hometech/static/media/logo28.d83426c9aa7046e0c60a.jpg",
+    "static/media/16.jpeg": "/hometech/static/media/16.fbdaeb12c92ef0af11c3.jpeg",
+    "static/media/13.jpeg": "/hometech/static/media/13.2338aeac8d93db488255.jpeg",
+    "static/media/18.jpeg": "/hometech/static/media/18.afc3e3fe701fdc584215.jpeg",
     "static/media/logo25.jpg": "/hometech/static/media/logo25.842f13902237fd54ddc8.jpg",
     "static/media/logo4.jpg": "/hometech/static/media/logo4.b945163631d6cad72954.jpg",
     "static/media/logo30.jpg": "/hometech/static/media/logo30.13d644d2e48e640df827.jpg",
@@ -27,6 +35,7 @@
     "static/media/logo26.jpg": "/hometech/static/media/logo26.45d97c151f6be0be2481.jpg",
     "static/media/cleaning2.png": "/hometech/static/media/cleaning2.b0971ee8a7963a25b324.png",
     "static/media/logo21.jpg": "/hometech/static/media/logo21.934bc02ee73bc00f551a.jpg",
+    "static/media/17.jpeg": "/hometech/static/media/17.d4bee48225c705419f75.jpeg",
     "static/media/11.png": "/hometech/static/media/11.46ddab9391cb0518aef1.png",
     "static/media/2.jpeg": "/hometech/static/media/2.22e5d86cfd097dab554e.jpeg",
     "static/media/4.jpeg": "/hometech/static/media/4.9a2cf7cd8f103afbde31.jpeg",
@@ -65,14 +74,21 @@
     "static/media/2.png": "/hometech/static/media/2.2a3880169b775e0c55a1.png",
     "static/media/3.png": "/hometech/static/media/3.d20ff01f3006315a261b.png",
     "static/media/home-banner-background.png": "/hometech/static/media/home-banner-background.585600da7ff85661555e.png",
+    "static/media/revicons.eot": "/hometech/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/hometech/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/hometech/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/logo.svg": "/hometech/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/hometech/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/hometech/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/hometech/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/hometech/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/hometech/index.html",
-    "main.94e391a7.css.map": "/hometech/static/css/main.94e391a7.css.map",
-    "main.aca999f8.js.map": "/hometech/static/js/main.aca999f8.js.map",
+    "main.f9a50ca3.css.map": "/hometech/static/css/main.f9a50ca3.css.map",
+    "main.4a980abb.js.map": "/hometech/static/js/main.4a980abb.js.map",
     "787.1f652984.chunk.js.map": "/hometech/static/js/787.1f652984.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94e391a7.css",
-    "static/js/main.aca999f8.js"
+    "static/css/main.f9a50ca3.css",
+    "static/js/main.4a980abb.js"
   ]
 }
