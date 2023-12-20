@@ -62,6 +62,18 @@ export const background=()=>[
   //cleaning 17-18
   `${require('../assets/background/cleaning1.png')}`,
   `${require('../assets/background/cleaning2.png')}`,
+
+  //ai 19 -24
+  `${require('../assets/background/14.jpeg')}`,
+  `${require('../assets/background/15.jpeg')}`,
+  `${require('../assets/background/16.jpeg')}`,
+  `${require('../assets/background/17.jpeg')}`,
+  `${require('../assets/background/18.jpeg')}`,
+  `${require('../assets/background/19.jpeg')}`,
+  `${require('../assets/background/20.jpeg')}`,
+  `${require('../assets/background/21.jpeg')}`,
+  `${require('../assets/background/13.jpeg')}`,
+ 
     
 ]
 
@@ -78,3 +90,97 @@ export const food=()=>[
     `${require('../assets/food/3.png')}`,
     
 ]
+
+export const housekeeping=()=>[
+
+    `${require('../assets/background/home.png')}`,
+  
+ 
+    
+]
+
+export const fire=()=>[
+
+    `${require('../assets/fire/ (1).jpeg')}`,
+    `${require('../assets/fire/ (2).jpeg')}`,
+    `${require('../assets/fire/ (3).jpeg')}`,
+    `${require('../assets/fire/ (4).jpeg')}`,
+    `${require('../assets/fire/ (5).jpeg')}`,
+    `${require('../assets/fire/ (6).jpeg')}`,
+    `${require('../assets/fire/ (7).jpeg')}`,
+    `${require('../assets/fire/ (8).jpeg')}`,
+    `${require('../assets/fire/ (9).jpeg')}`,
+    `${require('../assets/fire/ (10).jpeg')}`,
+    `${require('../assets/fire/ (11).jpeg')}`,
+    `${require('../assets/fire/ (12).jpeg')}`,
+    `${require('../assets/fire/ (13).jpeg')}`,
+    `${require('../assets/fire/ (14).jpeg')}`,
+  
+ 
+    
+]
+
+export const havc=()=>[
+
+    `${require('../assets/havc/ (1).jpeg')}`,
+    `${require('../assets/havc/ (2).jpeg')}`,
+    `${require('../assets/havc/ (3).jpeg')}`,
+    `${require('../assets/havc/ (4).jpeg')}`,
+    `${require('../assets/havc/ (5).jpeg')}`,
+    `${require('../assets/havc/ (6).jpeg')}`,
+    `${require('../assets/havc/ (7).jpeg')}`,
+    `${require('../assets/havc/ (8).jpeg')}`,
+    `${require('../assets/havc/ (9).jpeg')}`,
+    `${require('../assets/havc/ (10).jpeg')}`,
+    `${require('../assets/havc/ (11).jpeg')}`,
+  
+ 
+    
+]
+
+export const pest=()=>[
+
+    `${require('../assets/pest/ (1).jpeg')}`,
+    `${require('../assets/pest/ (2).jpeg')}`,
+    `${require('../assets/pest/ (3).jpeg')}`,
+    `${require('../assets/pest/ (4).jpeg')}`,
+    `${require('../assets/pest/ (5).jpeg')}`,
+    `${require('../assets/pest/ (6).jpeg')}`,
+  
+  
+ 
+    
+]
+
+export const electric=()=>[
+
+    `${require('../assets/electric/ (1).jpeg')}`,
+    `${require('../assets/electric/ (2).jpeg')}`,
+    `${require('../assets/electric/ (3).jpeg')}`,
+    `${require('../assets/electric/ (4).jpeg')}`,
+    `${require('../assets/electric/ (5).jpeg')}`,
+    `${require('../assets/electric/ (6).jpeg')}`,
+    `${require('../assets/electric/ (7).jpeg')}`,
+    `${require('../assets/electric/ (8).jpeg')}`,
+    `${require('../assets/electric/ (9).jpeg')}`,
+  
+  
+ 
+    
+]
+
+export const cleaning=()=>[
+
+    `${require('../assets/cleaning/ (1).jpeg')}`,
+    `${require('../assets/cleaning/ (2).jpeg')}`,
+    `${require('../assets/cleaning/ (3).jpeg')}`,
+    `${require('../assets/cleaning/ (4).jpeg')}`,
+    `${require('../assets/cleaning/ (5).jpeg')}`,
+  
+  
+  
+ 
+    
+]
+
+

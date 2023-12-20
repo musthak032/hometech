@@ -4,7 +4,7 @@
 
    
  
- background-color: whitesmoke;
+ /* background-color: whitesmoke; */
  overflow: hidden;
  }
  
@@ -15,7 +15,7 @@
      flex-direction: row-reverse    ;
      align-items: center;
      justify-content: space-between; 
-     padding: 25px 55px 25px 55px;
+     /* padding: 25px 55px 25px 55px; */
 
  }
  
@@ -27,7 +27,7 @@
  position: absolute;
  
  left: 0%;
- top: 70%;
+ /* top: 90%; */
 
  height: auto;
  overflow: hidden;
@@ -71,7 +71,7 @@
        flex-direction: column;
        align-items: center;
        justify-content: space-between; 
-       padding: 25px 55px 25px 55px;
+       padding: 25px 20px;
    }
    
    

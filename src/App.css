@@ -87,14 +87,14 @@ color: green;
  /* teams card isze */
 
  .teams-card{
-  width: 385px;
+  width: 360px;
  }
 
  @media screen and (max-width: 900px) {
 
   
  .teams-card{
-  width: 290px;
+ width: 98%;
   padding: 25px;
  }
 
@@ -107,3 +107,7 @@ color: green;
     gap: 25px;
 }
  }
+
+/* slide container
+*/
+

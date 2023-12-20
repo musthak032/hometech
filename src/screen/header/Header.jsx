@@ -17,6 +17,8 @@ import MenuItem from '@mui/material/MenuItem';
 import hometech from '../../assets/hometech.png'
 import { useNavRef } from "../../context/navigation/navContext";
 
+import { useNavigate } from "react-router-dom";
+
 const pages = ['Home', 'About', 'Services','Profile','Team','Contact'];
 
 
@@ -24,6 +26,7 @@ const Header=()=>{
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
   
+    const navigate=useNavigate();
     const {Homesection,
       Aboutsection,
       Profilesection,
@@ -120,24 +123,39 @@ const scrollDown = (ref) => {
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={()=>{
                     if(page==="About"){
-                      scrollDown(Aboutsection) 
-                     }
-                     if(page==="Home"){
-                       scrollDown(Homesection) 
+                      //  scrollDown(Aboutsection) 
+                      
+                      navigate("/hometech/aboutus")
+  
                       }
-                      if(page==="Services"){
-                       scrollDown(Servicessection) 
-                      }
- 
-                      if(page==="Profile"){
-                       scrollDown(Profilesection) 
-                      }
-                      if(page==="Team"){
-                       scrollDown(Teamsection) 
-                      }
-                      if(page==="Contact"){
-                       scrollDown(Contactsection) 
-                      }
+                      if(page==="Home"){
+                        // scrollDown(Homesection) 
+                        navigate("/")
+                       }
+                       if(page==="Services"){
+                        // scrollDown(Servicessection) 
+                        navigate("/")
+  
+                       }
+  
+                       if(page==="Profile"){
+                        // scrollDown(Profilesection) 
+                        navigate("/")
+  
+                       }
+                       if(page==="Team"){
+                        // scrollDown(Teamsection) 
+                        navigate("/hometech/aboutus")
+
+  
+                       }
+                       if(page==="Contact"){
+                        // scrollDown(Contactsection) 
+                        navigate("/hometech/aboutus")
+
+  
+                       }
+  
                   }}>
                     <Typography textAlign="center">{page}</Typography>
                   </MenuItem>
@@ -175,23 +193,37 @@ const scrollDown = (ref) => {
                   key={page}
                   onClick={()=>{
                     if(page==="About"){
-                     scrollDown(Aboutsection) 
+                    //  scrollDown(Aboutsection) 
+                    
+                    navigate("/hometech/aboutus")
+
                     }
                     if(page==="Home"){
-                      scrollDown(Homesection) 
+                      // scrollDown(Homesection) 
+                      navigate("/")
                      }
                      if(page==="Services"){
-                      scrollDown(Servicessection) 
+                      // scrollDown(Servicessection) 
+                      navigate("/")
+
                      }
 
                      if(page==="Profile"){
-                      scrollDown(Profilesection) 
+                      // scrollDown(Profilesection) 
+                      navigate("/")
+
                      }
                      if(page==="Team"){
-                      scrollDown(Teamsection) 
+                      // scrollDown(Teamsection) 
+                      navigate("/hometech/aboutus")
+
+
                      }
                      if(page==="Contact"){
-                      scrollDown(Contactsection) 
+                      // scrollDown(Contactsection) 
+                      navigate("/hometech/aboutus")
+
+
                      }
 
                       

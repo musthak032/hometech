@@ -3,20 +3,22 @@ import "./Services.css";
 import { useNavRef } from "../../context/navigation/navContext";
 
 import { Parallax } from "react-parallax";
-import {background,food} from '../../utils/clientimg'
+import { background, food,electric,cleaning,fire,havc,pest } from "../../utils/clientimg";
+import React, { Component, useEffect, useState } from "react";
+import ReactDOM from "react-dom";
 
-
-
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-
-
-
+import { useNavigate } from "react-router-dom";
+import Slider from "react-slick";
 const Services = () => {
   const backgroundimg = background();
-  const foodimg=  food();
+  const foodimg = food();
+  const electricimg = electric();
+  const cleaningimg = cleaning();
+  const fireimg = fire();
+  const havcimg = havc();
+  const pestimg = pest();
+
+
 
   const {
     Homesection,
@@ -26,38 +28,107 @@ const Services = () => {
     Teamsection,
     Contactsection,
   } = useNavRef();
+
+  const navigation =useNavigate();
+
+  const [slideview,setslideview]=useState(3)
+  const [slidecount,setslidecount]=useState(3)
+  useEffect(() => {
+    // Function to update slideview and slidecount based on window.innerWidth
+    const updateSlideValues = () => {
+      if (window.innerWidth <= 900) {
+        setslideview(1);
+        setslidecount(1);
+      } else {
+        setslideview(4);
+        setslidecount(4);
+      }
+    };
+  
+    // Initial update
+    updateSlideValues();
+  
+    // Event listener for window resize
+    window.addEventListener('resize', updateSlideValues);
+  
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', updateSlideValues);
+    };
+  }, []);
+
+  const settings = {
+    dots: true,
+    infinite: true,
+  
+    slidesToShow: slideview,
+    slidesToScroll:slidecount,
+    arrows: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+
+  };
+
+
+ 
   return (
-    <div className="services-container"  ref={Servicessection}>
+    <div className="services-container" ref={Servicessection}>
+      <div className="services-banner-container">
      
-     <div className="services-banner-container">
-        <div className="services-bannerImage-container  background-img">
-          <img src={foodimg[6]} alt="" />
-        </div>
+
         <div className="services-text-section frontground">
-          <h1 className="primary-heading">
-        Services
-          </h1>
-          <h2 className="primary-heading-white">
-          We provide an extensive range of maintenance service for organizations
-          </h2>
-          {/* <p className="primary-text-white">
-          Help our clients with their manpower intensive needs especially through fulfilling their blue collar staff vacancies
-          </p> */}
-          <div data-aos="slide-right"  className="service-card-container">
+          <h4 className="primary-heading">Our Services</h4>
+          <p className="primary-heading-white">
+            We provide an extensive range of Facility Management service for
+            organizations.
+          </p>
+    
 
-              <Cardc servicename="Cleaning service"/>
-              <Cardc servicename="Security service"/>
-              {/* <Cardc/> */}
-
+        </div>
+          <div data-aos="slide-right" className="service-card-container">
+            <div className="service-card-slider">
+              <Slider {...settings}>
+                <Cardc img={backgroundimg[18]} servicename="HOUSE KEEPING" content="Maintain a pristine workplace with our top-tier housekeeping services" />
+                <Cardc img={backgroundimg[20]} servicename="SECURITY" content="Security guard services play a crucial role in facility management"  />
+                <Cardc img={electricimg[3]} servicename="ELECTRICALS" content="Electrical systems are pivotal in facility management, requiring regular checks."  />
+                <Cardc img={fireimg[2]} servicename="FIRE CREW" content="Ensure workplace safety with certified fire safety officers. "  />
+                <Cardc img={havcimg[7]} servicename="HVAC" content=" Ensuring a comfortable and productive environment."  />
+                <Cardc img={pestimg[1]} servicename="PEST CONTROL" content=" Employing a holistic approach, IPM is a key facet of facility management"  />
+                <Cardc img={cleaningimg[1]} servicename="CLEANING MATERIALS" content="Quality cleaning for a spotless environment."  />
+              </Slider>
+            </div>
           </div>
-       
-        </div>
-        <div data-aos="slide-left"  className="services-image-section foreground-img">
-          <img src={backgroundimg[14]} alt="" />
-        </div>
+
+      
       </div>
     </div>
   );
 };
 
+
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style,   color:"black " }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, color:"black"}}
+
+      onClick={onClick}
+    />
+  );
+}
 export default Services;
+
+

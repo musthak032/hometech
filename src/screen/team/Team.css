@@ -1,6 +1,4 @@
 
-
-
 .team-container{
 
    
@@ -41,18 +39,27 @@
     }
     
    
-
     /* card conatiner */
    .team-card-container{
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-  flex-wrap: wrap;
+ 
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
     
-        overflow: hidden;
+        /* overflow: auto; */
+        width: 850px;
+        flex-wrap: wrap;
    }
+
+   .team-crad-slider{
+
+    width: 100%;
+}
+
    
     @media screen and (max-width: 900px) {
 
@@ -65,7 +72,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: space-between; 
-            padding: 25px 55px 25px 55px;
+            padding: 25px 20px;
         }
         
         
@@ -93,11 +100,19 @@
          .team-card-container{
     
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
-            /* justify-content: space-evenly; */
+            justify-content: center;
             gap: 25px;
+    
+            width: 100%;
+            /* overflow: hidden; */
            }
         
+.team-crad-slider{
+
+    width: 300px;
+}
+
 
     }

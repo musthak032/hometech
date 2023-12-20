@@ -16,7 +16,7 @@ const Profile = () => {
 
      <div className="profile-banner-container">
         <div className=" profile-bannerImage-container  background-img">
-          <img  src={foodimg[5]} alt="" />
+          {/* <img  src={foodimg[5]} alt="" /> */}
         </div>
         <div className="profile-text-section frontground">
           <h1 className="primary-heading">

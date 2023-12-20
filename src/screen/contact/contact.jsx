@@ -105,11 +105,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      <div className="Contact-footer">
-        <h4>LinkedIn</h4>
-        <h4>Instagram</h4>
-        <h4>Facebook</h4>
-      </div>
+    
       {/* <ScrollToTop/> */}
     </>
   );

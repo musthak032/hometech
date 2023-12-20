@@ -1,14 +1,18 @@
 .home-container{
 
 /* margin-top: 100px; */
-background-color: green;
+background-color: rgb(0, 93, 0);
 overflow: hidden;
 
 display: flex;
 align-items: center;
 justify-content: center;
-height: 100vh;
+height: 60vh;
 
+
+/* border-radius: 25% 25% 100% 0% / 0% 0% 24% 55%; */
+border-radius: 0px 0px 160px 10px;
+margin-top: 100px;
 }
 
 .home-banner-container{
@@ -17,7 +21,8 @@ height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    padding: 25px 55px 25px 55px;
+    padding: 25px 0px 25px 55px;
+    gap:35px;
 }
 
 
@@ -48,7 +53,7 @@ overflow: hidden;
 
       margin-top: 100px;
       background-color: green;
-      overflow: hidden;
+      /* overflow: scroll; */
       display: block;
       align-items: center;
       justify-content: center;
@@ -62,8 +67,15 @@ overflow: hidden;
       flex-direction: column-reverse;
       align-items: center;
       justify-content: space-between; 
-      padding: 25px 55px 25px 55px;
+      padding: 0px 20px;
   }
+.home-text-section{
+   background-color: green;
+   position: absolute;
+   bottom: 20%;
+   padding: 10px;
+}
+  
   
   
   

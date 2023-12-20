@@ -1,0 +1,50 @@
+.footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    
+    gap: 105px;
+    padding:  40px;
+   
+
+
+    }
+
+
+    .footer-about{
+
+        display: flex;
+         align-items: flex-start;
+        flex-direction: column;
+        /* gap:1px; */
+    }
+
+    .footer-services{
+        
+        display: flex;
+        align-items: flex-start;
+       flex-direction: column;
+    }
+    .footer-contactus
+    { 
+        display: flex;
+         align-items: flex-start;
+        flex-direction: column;
+        
+    }
+
+    @media screen and (max-width: 900px) {
+        .footer{
+            background-color: black;
+            display: flex;
+            color: white;
+            
+            gap: 18px;
+            padding: 13px;
+        
+        
+        
+            }    
+
+ }
+ 

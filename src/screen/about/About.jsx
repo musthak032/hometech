@@ -54,13 +54,7 @@ const About = () => {
           </p>
 
 
-                 {/* set one content */}
-                 <h2 className="primary-heading-white">
-             Our Mission :
-          </h2>
-          <p className="primary-text-white">
-          Our goal is to Identify each and every requirement of our client and be the solution to it. We want to be among the leaders in the facility management sector while also incorporating technology into the services we offer.
-          </p>
+       
 
 
             {/* set one content */}

@@ -2,7 +2,7 @@
     /* width: 100%; */
     
  /* margin-bottom: 4%; */
- padding: 45px;
+ padding: 20px 25px;
  background-color: white;
  overflow: hidden;
  
@@ -22,21 +22,22 @@
     width: 100%;
     
     justify-content: space-between;
-    padding: 2% 10%;
     gap: 20px;
 }
-.Contact-footer{
-background-color: black;
-display: flex;
-color: white;
-justify-content: center;
-gap: 25px;
-padding: 40px;
-}
+
 
 
 @media screen and (min-width: 900px) {
 
+    .contact-parent{
+        /* width: 100%; */
+        
+     /* margin-bottom: 4%; */
+     padding: 45px;
+     background-color: white;
+     overflow: hidden;
+     
+    }
     .contact-form-container{
 
         display: grid;

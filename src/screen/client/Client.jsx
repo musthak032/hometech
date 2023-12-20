@@ -7,7 +7,8 @@ import { Parallax } from "react-parallax";
 
 import homepng from "../../assets/home/home2.png";
 import { background, food } from "../../utils/clientimg";
-
+import { useEffect,useState } from "react";
+import Slider from "react-slick";
 const Client = () => {
   const backgroundimg = background();
   const foodimg = food();
@@ -22,11 +23,55 @@ const Client = () => {
     Contactsection,
   } = useNavRef();
   const clientImages = clientimg();
+
+
+
+
+  const [slideview,setslideview]=useState(3)
+  const [slidecount,setslidecount]=useState(3)
+  useEffect(() => {
+    // Function to update slideview and slidecount based on window.innerWidth
+    const updateSlideValues = () => {
+      if (window.innerWidth <= 900) {
+        setslideview(1);
+        setslidecount(1);
+      } else {
+        setslideview(2);
+        setslidecount(2);
+      }
+    };
+  
+    // Initial update
+    updateSlideValues();
+  
+    // Event listener for window resize
+    window.addEventListener('resize', updateSlideValues);
+  
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', updateSlideValues);
+    };
+  }, []);
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    
+    slidesToShow: slideview,
+    slidesToScroll: slidecount,
+    arrows: false,
+    
+    autoplay: true,
+    speed: 5000,
+    autoplaySpeed:500,
+    cssEase: "linear"
+  };
+
   return (
     <div className="client-container">
       <div className="client-banner-container">
         <div className="client-bannerImage-container background-img ">
-          <img className=" background-img" src={foodimg[5]} alt="" />
+          {/* <img className=" background-img" src={foodimg[5]} alt="" /> */}
         </div>
 
         <div className="client-text-section frontground">
@@ -46,7 +91,10 @@ const Client = () => {
           <div className="client-icon-container">
             {
               clienticon.map((img,index)=>
-               <img  className="animated infinite pulse" key={index} src={img.log} alt="logo"/>
+
+           
+                <img  className="animated infinite pulse" key={index} src={img.log} alt="logo"/>
+             
               )
             }
           </div>
