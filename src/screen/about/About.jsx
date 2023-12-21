@@ -27,7 +27,7 @@ const About = () => {
 
           {/* set one content */}
           <h2 className="primary-heading-white">
-          We provide an extensive range of maintenance service for organizations
+          
           </h2>
           <p className="primary-text-white">
           Home tech services has been one of the pioneers in providing housekeeping , security, and maintenance services in the region since the late 90’s. Nestled in the heart of Nungambakkam, our headquarters have been a hub for excellence, reaching out to major regions across the nation.

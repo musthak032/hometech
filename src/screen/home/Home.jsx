@@ -1,10 +1,7 @@
 import "./Home.css";
 import { useNavRef } from "../../context/navigation/navContext";
 import Client from "../client/Client";
-import { clientimg } from "../../utils/clientimg";
-import homepng from "../../assets/home/home.png";
-import { Parallax } from "react-parallax";
-import { background, food } from "../../utils/clientimg";
+import {  cleaning,electric,fire,havc,housekeeping,pest} from "../../utils/clientimg";
 
 import Slider from "react-slick";
 
@@ -13,8 +10,7 @@ import { useEffect, useState } from "react";
 import Header from "../header/Header";
 import Services from "../services/Services";
 import Footer from "../../component/footer/Footer";
-
-
+import { handlepost } from "../../component/services/Api";
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -51,8 +47,13 @@ function Dotes(props) {
 const Home = () => {
 
 
-  const backgroundimg = background();
-  const foodimg = food();
+  const cleaningimg = cleaning();
+  const electricimg = electric();
+  const fireimg = fire();
+  const havcimg = havc();
+  const housekeepingimg = housekeeping();
+  const pestimg = pest();
+
 
   const {
     Homesection,
@@ -64,6 +65,44 @@ const Home = () => {
   } = useNavRef();
   const [slideview, setslideview] = useState(3);
   const [slidecount, setslidecount] = useState(3);
+
+/////fetch service /////
+
+  const [data, setData] = useState({});
+    const newData={
+      "home":{
+          "header":"Home content",
+          "content":" We help ."
+
+      },
+
+      "about":{
+        "header":"about",
+        "content":" Wer."
+
+    }}
+
+
+  // useEffect(() => {
+  //   // Fetch data from the API
+  //   axios.get('http://localhost:4000/home')
+  //   .then(response => setData(response.data))
+  //   .catch(error => console.error('Axios error:', error));
+  // }, []);
+
+  // const handleUpdateData = async () => {
+  //   try {
+  //     const response = await axios.put('http://localhost:4000/home', { message: newData });
+  //     console.log(response.data);
+  //   } catch (error) {
+  //     console.error('Error updating data:', error);
+  //   }
+  // };
+
+  ///// end /////
+
+
+
   useEffect(() => {
     // Function to update slideview and slidecount based on window.innerWidth
     const updateSlideValues = () => {
@@ -91,14 +130,13 @@ const Home = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: slideview,
-    slidesToScroll: slidecount,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     fade: true,
     autoplay:true,
     speed:2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
-    dots:false,
     arrows:true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -107,47 +145,13 @@ const Home = () => {
   };
 
   return (
-    // <div className='home-container card-shodow' ref={Homesection}>
 
-    //  <div className="home-banner-container">
-    //     <div className="home-bannerImage-container  background-img ">
-    //       <img src={foodimg[4]} alt="" />
-    //     </div>
-    //     <div className="home-text-section frontground">
-    //     <h1 className="primary-heading">
-    //      Home
-    //       </h1>
-    //       <h2 className="primary-heading-white">
-    //       We provide an extensive range of maintenance service for organizations
-    //       </h2>
-    //       <p className="primary-text-white-h">
-    //       Help our clients with their manpower intensive needs especially through fulfilling their blue collar staff vacancies
-    //       Home Tech Services Pvt Ltd aspires to be the premier service provider in India's dynamically evolving facility management sector.
-    //       </p>
-    //       {/* <button className="secondary-button">
-    //         Order Now
-    //       </button> */}
-    //     </div>
-    //     <div data-aos="slide-left"   className="home-image-section foreground-img ">
-    //       <div style={{width:"500px"}  }>
-    //         <Slider {...settings}>
-
-    //         <img   src={backgroundimg[21]} alt="" />
-    //         <img   src={backgroundimg[25]} alt="" />
-    //           <img   src={backgroundimg[24]} alt="" />
-    //           </Slider>
-
-    //       </div>
-    //     </div>
-    //   </div>
-
-    // </div>
 <>
 
 <Header/>
     <div className="home-container" ref={Homesection}>
-      <div className="home-banner-container">
-        <div className="home-text-section frontground">
+      <div className="home-banner-container" >
+        <div className="home-text-section frontground" data-aos="slide-right">
           <h4 className="primary-heading-white">Home Tech Services Pvt Ltd</h4>
           <h6 className="primary-heading-white">
             All Your Facility Requirement Under One Roof
@@ -163,16 +167,18 @@ const Home = () => {
          </button> */}
         </div>
         <div
-          data-aos="zoom-in"
+
           className="home-image-section foreground-img "
         >
           <div style={{ width: "930px" }}>
             <Slider {...settings}>
-              <img src={backgroundimg[21]} alt="" />
-              <img src={backgroundimg[25]} alt="" />
-              <img src={backgroundimg[24]} alt="" />
-              <img src={backgroundimg[20]} alt="" />
-              <img src={backgroundimg[19]} alt="" />
+              <img src={cleaningimg[2]} alt="" />
+              <img src={housekeepingimg[14]} alt="" />
+              <img src={fireimg[4]} alt="" />
+              <img src={havcimg[2]} alt="" />
+              <img src={electricimg[8]} alt="" />
+              <img src={fireimg[5]} alt="" />
+              <img src={pestimg[5]} alt="" />
             </Slider>
           </div>
         </div>
@@ -181,6 +187,7 @@ const Home = () => {
     <Services/>
 
 <Client/>
+{/* <button onClick={()=>handlepost('home',newData)}>stop</button> */}
 <Footer/>
 </>
   );

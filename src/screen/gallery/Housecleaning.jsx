@@ -3,12 +3,12 @@ import Footer from "../../component/footer/Footer";
 import "./gallery.css";
 import { useEffect, useState } from "react";
 import React from "react";
-import { background ,cleaning, food } from "../../utils/clientimg";
+import { background ,housekeeping, food } from "../../utils/clientimg";
 import Slider from "react-slick";
 
 const Housecleaning = () => {
   const backgroundimg = background();
-  const cleaningimg = cleaning();
+  const housekeepingimg = housekeeping();
 
   const [slideview, setslideview] = useState(5);
   const [slidecount, setslidecount] = useState(5);
@@ -79,31 +79,31 @@ const Housecleaning = () => {
               <div>
                 <img
                   style={{ width: "95%", objectFit: "cover" }}
-                  src={cleaningimg[0]}
+                  src={housekeepingimg[14]}
                 />
               </div>
               <div>
                 <img
                   style={{ width: "95%", objectFit: "cover" }}
-                  src={cleaningimg[1]}
+                  src={housekeepingimg[5]}
                 />
               </div>
               <div>
                 <img
                   style={{ width: "95%", objectFit: "cover" }}
-                  src={cleaningimg[2]}
+                  src={housekeepingimg[8]}
                 />
               </div>
               <div>
                 <img
                   style={{ width: "95%", objectFit: "cover" }}
-                  src={cleaningimg[3]}
+                  src={housekeepingimg[3]}
                 />
               </div>
               <div>
                 <img
                   style={{ width: "95%", objectFit: "cover" }}
-                  src={cleaningimg[4]}
+                  src={housekeepingimg[4]}
                 />
               </div>
             </Slider>

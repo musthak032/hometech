@@ -33,6 +33,7 @@ const Header=()=>{
       Servicessection,
       Teamsection,
       Contactsection}=useNavRef()
+
     const handleOpenNavMenu = (event) => {
       setAnchorElNav(event.currentTarget);
     };
@@ -56,13 +57,34 @@ const scrollToBottom = () => {
   });
   handleCloseNavMenu()
 };
-const scrollDown = (ref) => {
-  window.scrollTo({
-    top: ref.current.offsetTop-100,
-    // top:document.documentElement.scrollHeight,
-    behavior: 'smooth',
 
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'instant',
   });
+  handleCloseNavMenu()
+};
+
+const scrollDown = (ref) => {
+
+  try{
+
+    window.scrollTo({
+      top: ref.current.offsetTop-100,
+      // top:document.documentElement.scrollHeight,
+      behavior: 'smooth',
+  
+    });
+  
+
+  }catch(e){
+
+
+ scrollToTop()
+
+  }
+  
  
   handleCloseNavMenu();
 };
@@ -123,35 +145,46 @@ const scrollDown = (ref) => {
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={()=>{
                     if(page==="About"){
-                      //  scrollDown(Aboutsection) 
+                      // scrollToTop()
                       
                       navigate("/hometech/aboutus")
+                      scrollDown(Aboutsection) 
   
                       }
                       if(page==="Home"){
-                        // scrollDown(Homesection) 
+                        // scrollToTop()
+                        
                         navigate("/")
+                        scrollDown(Homesection) 
                        }
                        if(page==="Services"){
-                        // scrollDown(Servicessection) 
-                        navigate("/")
+                         // scrollToTop()
+                         
+                         navigate("/")
+
+                         scrollDown(Servicessection) 
   
                        }
   
                        if(page==="Profile"){
                         // scrollDown(Profilesection) 
+                      scrollToTop()
+
                         navigate("/")
   
                        }
                        if(page==="Team"){
-                        // scrollDown(Teamsection) 
-                        navigate("/hometech/aboutus")
-
-  
+                         // scrollToTop()
+                         
+                         navigate("/hometech/aboutus")
+                         scrollDown(Teamsection) 
+                        
                        }
                        if(page==="Contact"){
-                        // scrollDown(Contactsection) 
-                        navigate("/hometech/aboutus")
+                         // scrollToTop()
+                         
+                         navigate("/hometech/aboutus")
+                         scrollDown(Contactsection) 
 
   
                        }
@@ -193,37 +226,44 @@ const scrollDown = (ref) => {
                   key={page}
                   onClick={()=>{
                     if(page==="About"){
-                    //  scrollDown(Aboutsection) 
-                    
-                    navigate("/hometech/aboutus")
+                      // scrollToTop()
+                      
+                      navigate("/hometech/aboutus")
+                      scrollDown(Aboutsection) 
 
                     }
                     if(page==="Home"){
-                      // scrollDown(Homesection) 
+                      // scrollToTop()
                       navigate("/")
+                      scrollDown(Homesection) 
+
                      }
                      if(page==="Services"){
-                      // scrollDown(Servicessection) 
-                      navigate("/")
+                      //  scrollToTop()
+                       navigate("/")
+                       scrollDown(Servicessection) 
 
                      }
 
                      if(page==="Profile"){
-                      // scrollDown(Profilesection) 
-                      navigate("/")
+                      //  scrollToTop()
+                       navigate("/")
+                       scrollDown(Profilesection) 
 
                      }
                      if(page==="Team"){
-                      // scrollDown(Teamsection) 
+                      //  scrollToTop()
                       navigate("/hometech/aboutus")
+                      scrollDown(Teamsection) 
 
 
                      }
                      if(page==="Contact"){
-                      // scrollDown(Contactsection) 
+                      //  scrollToTop()
                       navigate("/hometech/aboutus")
+                      scrollDown(Contactsection) 
 
-
+                      // window.scrollTo({ top: 0, behavior: 'smooth' });
                      }
 
                       

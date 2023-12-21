@@ -124,55 +124,36 @@ const HvacGallery = () => {
           </div>
           <div className="profile-text-section frontground">
             <h4 className="primary-heading">HVAC</h4>
+          
+
+            <h2 className="primary-heading-white">Temperature Regulation:  </h2>
             <p className="primary-heading-white">
-              Maintain a pristine workplace with our top-tier housekeeping
-              services. Housekeeping services within facility management cover a
-              broad spectrum, including daily cleaning, sanitation, and upkeep
-              of interior spaces.
+            HVAC (Heating, Ventilation, and Air Conditioning) systems play a pivotal role in maintaining optimal indoor temperatures, ensuring a comfortable and productive environment.
             </p>
 
-            <h2 className="primary-heading-white">Comprehensive Cleaning </h2>
+            <h2 className="primary-heading-white">Air Quality Management:  </h2>
             <p className="primary-heading-white">
-              Housekeeping services in Facility Management cover thorough
-              cleaning of interiors, maintaining a pristine and sanitized
-              environment.
+            HVAC systems contribute to air quality control by filtering and circulating fresh air, minimizing pollutants, allergens, and contaminants for healthier indoor spaces.
             </p>
 
-            <h2 className="primary-heading-white">Scheduled Maintenance </h2>
+            <h2 className="primary-heading-white">  Energy Efficiency:  </h2>
             <p className="primary-heading-white">
-              Regular schedules ensure consistent cleaning routines, preventing
-              the accumulation of dust, dirt, and germs in various spaces.
-            </p>
-
-            <h2 className="primary-heading-white">Professional Staff: </h2>
-            <p className="primary-heading-white">
-              Trained and skilled housekeeping professionals handle tasks
-              efficiently, utilizing industry best practices and quality
-              cleaning agents.
+            Efficient HVAC systems contribute to the overall energy efficiency of a facility, reducing operational costs and environmental impact through optimized heating and cooling processes.
             </p>
 
             <h2 className="primary-heading-white">
-              Surface and Material Expertise:{" "}
+            Preventive Maintenance: 
             </h2>
             <p className="primary-heading-white">
-              Knowledgeable in handling various surfaces and materials,
-              housekeeping services cater to the specific cleaning needs of
-              different areas within the facility.
+            Regular maintenance of HVAC systems within facility management ensures peak performance, minimizes downtime, and extends the lifespan of equipment, promoting reliability.
             </p>
 
-            <h2 className="primary-heading-white">Health and Safety: </h2>
+            <h2 className="primary-heading-white">Smart Technology Integration:  </h2>
             <p className="primary-heading-white">
-              Prioritizing the health and safety of occupants, housekeeping
-              services adhere to hygiene standards, reducing the risk of
-              infections and promoting a healthy environment.
+            Modern HVAC systems incorporate smart technologies, allowing for remote monitoring, predictive maintenance, and energy optimization, enhancing overall facility management strategies.
             </p>
 
-            <h2 className="primary-heading-white"> Waste Management </h2>
-            <p className="primary-heading-white">
-              Housekeeping services are equipped to respond to unexpected
-              situations promptly, maintaining a clean and safe environment even
-              during emergencies.
-            </p>
+          
           </div>
           <div
             data-aos="zoom-in"

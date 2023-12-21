@@ -4,12 +4,17 @@ import CardMedia from '@mui/material/CardMedia';
 import {background,food} from '../../utils/clientimg'
 
 import { useNavigate } from 'react-router-dom';
+import "./Card.css"
 const Cardc =({servicename,content,img})=>{
 
 
     const navigation =useNavigate();
     const handleReadmore=()=>{
 
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant',
+          });
         if(servicename==="HOUSE KEEPING"){
             navigation("/Housecleaninggallery")
             return
@@ -39,7 +44,7 @@ const Cardc =({servicename,content,img})=>{
             navigation("/Electric")
 
         }
-
+       
         
       }
     const backgroundimg=background();
@@ -63,7 +68,7 @@ const Cardc =({servicename,content,img})=>{
 
                                     <h4 className="mb-3">{servicename}</h4>
                                     <p className="mb-4">{content}</p>
-                                    <a onClick={handleReadmore} class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                                    <a onClick={handleReadmore} className="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
                                 </div>
                             </div>
                         </div>

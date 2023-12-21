@@ -124,55 +124,36 @@ const ElectricGallery = () => {
           </div>
           <div className="profile-text-section frontground">
             <h4 className="primary-heading">Electric Services</h4>
+          
+
+            <h2 className="primary-heading-white">Critical Infrastructure Maintenance:  </h2>
             <p className="primary-heading-white">
-              Maintain a pristine workplace with our top-tier housekeeping
-              services. Housekeeping services within facility management cover a
-              broad spectrum, including daily cleaning, sanitation, and upkeep
-              of interior spaces.
+            Electrical systems are pivotal in facility management, requiring regular checks, upgrades, and preventive maintenance to ensure continuous operation.
             </p>
 
-            <h2 className="primary-heading-white">Comprehensive Cleaning </h2>
+            <h2 className="primary-heading-white">Energy Efficiency Strategies:  </h2>
             <p className="primary-heading-white">
-              Housekeeping services in Facility Management cover thorough
-              cleaning of interiors, maintaining a pristine and sanitized
-              environment.
+            Facility managers implement energy-efficient practices in electrical systems, optimizing consumption and reducing environmental impact.
             </p>
 
-            <h2 className="primary-heading-white">Scheduled Maintenance </h2>
+            <h2 className="primary-heading-white">Emergency Response Planning: </h2>
             <p className="primary-heading-white">
-              Regular schedules ensure consistent cleaning routines, preventing
-              the accumulation of dust, dirt, and germs in various spaces.
-            </p>
-
-            <h2 className="primary-heading-white">Professional Staff: </h2>
-            <p className="primary-heading-white">
-              Trained and skilled housekeeping professionals handle tasks
-              efficiently, utilizing industry best practices and quality
-              cleaning agents.
+            Robust plans for electrical emergencies, such as power outages or electrical faults, are essential to minimize downtime and ensure the safety of occupants.
             </p>
 
             <h2 className="primary-heading-white">
-              Surface and Material Expertise:{" "}
+            Technology Integration: 
             </h2>
             <p className="primary-heading-white">
-              Knowledgeable in handling various surfaces and materials,
-              housekeeping services cater to the specific cleaning needs of
-              different areas within the facility.
+            The integration of smart technologies in electrical systems enhances monitoring, control, and energy management, contributing to overall operational efficiency.
             </p>
 
-            <h2 className="primary-heading-white">Health and Safety: </h2>
+            <h2 className="primary-heading-white">Regulatory Compliance: </h2>
             <p className="primary-heading-white">
-              Prioritizing the health and safety of occupants, housekeeping
-              services adhere to hygiene standards, reducing the risk of
-              infections and promoting a healthy environment.
+            Facility managers navigate and adhere to electrical regulations and codes, ensuring that electrical systems meet safety standards and comply with legal requirements.
             </p>
 
-            <h2 className="primary-heading-white"> Waste Management </h2>
-            <p className="primary-heading-white">
-              Housekeeping services are equipped to respond to unexpected
-              situations promptly, maintaining a clean and safe environment even
-              during emergencies.
-            </p>
+           
           </div>
           <div
             data-aos="zoom-in"

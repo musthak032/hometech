@@ -123,56 +123,38 @@ const Cleaning = () => {
             {/* <img style={{backgroundColor:"red"}} draggable="false" src={foodimg[5]} alt="" /> */}
           </div>
           <div className="profile-text-section frontground">
-            <h4 className="primary-heading">House Keeping</h4>
+            <h4 className="primary-heading">Cleaning Material</h4>
             <p className="primary-heading-white">
-              Maintain a pristine workplace with our top-tier housekeeping
-              services. Housekeeping services within facility management cover a
-              broad spectrum, including daily cleaning, sanitation, and upkeep
-              of interior spaces.
+            Quality cleaning for a spotless environment. Explore our range for effective and sustainable cleaning solutions. Facility Management involves the use of various cleaning agents tailored to different surfaces and materials, ensuring effective and safe cleaning.
             </p>
 
-            <h2 className="primary-heading-white">Comprehensive Cleaning </h2>
+            <h2 className="primary-heading-white">Specialized Equipment: </h2>
             <p className="primary-heading-white">
-              Housekeeping services in Facility Management cover thorough
-              cleaning of interiors, maintaining a pristine and sanitized
-              environment.
+             ---
             </p>
 
-            <h2 className="primary-heading-white">Scheduled Maintenance </h2>
+            <h2 className="primary-heading-white">Environmentally Friendly Options:</h2>
             <p className="primary-heading-white">
-              Regular schedules ensure consistent cleaning routines, preventing
-              the accumulation of dust, dirt, and germs in various spaces.
+              ---
             </p>
 
-            <h2 className="primary-heading-white">Professional Staff: </h2>
+            <h2 className="primary-heading-white">Disinfection Protocols</h2>
             <p className="primary-heading-white">
-              Trained and skilled housekeeping professionals handle tasks
-              efficiently, utilizing industry best practices and quality
-              cleaning agents.
+            ----
             </p>
 
             <h2 className="primary-heading-white">
-              Surface and Material Expertise:{" "}
+            Proactive Maintenance:
             </h2>
             <p className="primary-heading-white">
-              Knowledgeable in handling various surfaces and materials,
-              housekeeping services cater to the specific cleaning needs of
-              different areas within the facility.
+             ----
             </p>
 
-            <h2 className="primary-heading-white">Health and Safety: </h2>
+            <h2 className="primary-heading-white">Occupant Health and Safety: </h2>
             <p className="primary-heading-white">
-              Prioritizing the health and safety of occupants, housekeeping
-              services adhere to hygiene standards, reducing the risk of
-              infections and promoting a healthy environment.
+            High-quality cleaning  adhere to industry standards, ensuring they meet safety and efficacy benchmarks for use in different facility environments.
             </p>
 
-            <h2 className="primary-heading-white"> Waste Management </h2>
-            <p className="primary-heading-white">
-              Housekeeping services are equipped to respond to unexpected
-              situations promptly, maintaining a clean and safe environment even
-              during emergencies.
-            </p>
           </div>
           <div
             data-aos="zoom-in"

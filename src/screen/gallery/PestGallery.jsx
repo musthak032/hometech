@@ -124,55 +124,36 @@ const PestGallery = () => {
           </div>
           <div className="profile-text-section frontground">
             <h4 className="primary-heading">Pest Controlling</h4>
+           
+
+            <h2 className="primary-heading-white">Integrated Pest Management (IPM):  </h2>
             <p className="primary-heading-white">
-              Maintain a pristine workplace with our top-tier housekeeping
-              services. Housekeeping services within facility management cover a
-              broad spectrum, including daily cleaning, sanitation, and upkeep
-              of interior spaces.
+            Employing a holistic approach, IPM is a key facet of facility management, focusing on prevention, monitoring, and control of pests through environmentally friendly practices.
             </p>
 
-            <h2 className="primary-heading-white">Comprehensive Cleaning </h2>
+            <h2 className="primary-heading-white">	Regulatory Compliance:  </h2>
             <p className="primary-heading-white">
-              Housekeeping services in Facility Management cover thorough
-              cleaning of interiors, maintaining a pristine and sanitized
-              environment.
+            Facility managers ensure adherence to local and international regulations governing pest control, maintaining a safe and compliant environment.
             </p>
 
-            <h2 className="primary-heading-white">Scheduled Maintenance </h2>
+            <h2 className="primary-heading-white">	Routine Inspections:  </h2>
             <p className="primary-heading-white">
-              Regular schedules ensure consistent cleaning routines, preventing
-              the accumulation of dust, dirt, and germs in various spaces.
-            </p>
-
-            <h2 className="primary-heading-white">Professional Staff: </h2>
-            <p className="primary-heading-white">
-              Trained and skilled housekeeping professionals handle tasks
-              efficiently, utilizing industry best practices and quality
-              cleaning agents.
+            Regular inspections are conducted to identify potential pest threats, enabling prompt action and minimizing the risk of infestations.
             </p>
 
             <h2 className="primary-heading-white">
-              Surface and Material Expertise:{" "}
+            	Customized Solutions: 
             </h2>
             <p className="primary-heading-white">
-              Knowledgeable in handling various surfaces and materials,
-              housekeeping services cater to the specific cleaning needs of
-              different areas within the facility.
+            Facility managers tailor pest control strategies to the unique needs of the facility, considering factors such as structure, location, and the nature of the business.
             </p>
 
-            <h2 className="primary-heading-white">Health and Safety: </h2>
+            <h2 className="primary-heading-white">	Collaboration with Experts:  </h2>
             <p className="primary-heading-white">
-              Prioritizing the health and safety of occupants, housekeeping
-              services adhere to hygiene standards, reducing the risk of
-              infections and promoting a healthy environment.
+            Facility management teams often collaborate with pest control professionals, fostering a proactive partnership to address pest-related challenges effectively.
             </p>
 
-            <h2 className="primary-heading-white"> Waste Management </h2>
-            <p className="primary-heading-white">
-              Housekeeping services are equipped to respond to unexpected
-              situations promptly, maintaining a clean and safe environment even
-              during emergencies.
-            </p>
+          
           </div>
           <div
             data-aos="zoom-in"

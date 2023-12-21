@@ -125,10 +125,7 @@ const Firegallery = () => {
           <div className="profile-text-section frontground">
             <h4 className="primary-heading">Fire Safety</h4>
             <p className="primary-heading-white">
-              Maintain a pristine workplace with our top-tier housekeeping
-              services. Housekeeping services within facility management cover a
-              broad spectrum, including daily cleaning, sanitation, and upkeep
-              of interior spaces.
+            Ensure workplace safety with certified fire safety officers. Protect your assets and employees with our expertise. Fire Safety Officers possess specialized knowledge in fire prevention strategies, including risk assessments and proactive measures to mitigate potential hazards.
             </p>
 
             <h2 className="primary-heading-white">Comprehensive Cleaning </h2>

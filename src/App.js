@@ -9,18 +9,18 @@ import Main from './screen/main/Main';
 
 
 import Imgcontainer from './component/em/Autoplay';
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter,BrowserRouter } from "react-router-dom";
 function App() {
   return (
 
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
       <Main/>
-     {/* <Imgcontainer/> */}
+   
 
     </div>
     
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

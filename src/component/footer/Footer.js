@@ -26,14 +26,14 @@ const Footer = () => {
         <p>Pest</p>
         <p>HAVC</p>
         </div>
-      <div className="footer-contactus">
+      {/* <div className="footer-contactus">
 
       <h6>Need Help</h6>
         <p>Getting Started</p>
         <p>Contact Us</p>
         <p>FAQ</p>
 
-      </div>
+      </div> */}
         
 
       </div>

@@ -1,43 +1,67 @@
 
 
-export const clientimg =()=>[
-{log:require('../assets/clientimg/logo1.jpg')},
-{log:require('../assets/clientimg/logo2.jpg')},
-{log:require('../assets/clientimg/logo3.jpg')},
-{log:require('../assets/clientimg/logo4.jpg')},
-{log:require('../assets/clientimg/logo5.jpg')},
-{log:require('../assets/clientimg/logo6.jpg')},
-{log:require('../assets/clientimg/logo7.jpg')},
-{log:require('../assets/clientimg/logo8.jpg')},
-{log:require('../assets/clientimg/logo9.jpg')},
-{log:require('../assets/clientimg/logo10.jpg')},
-{log:require('../assets/clientimg/logo11.jpg')},
-{log:require('../assets/clientimg/logo12.jpg')},
-{log:require('../assets/clientimg/logo13.jpg')},
-{log:require('../assets/clientimg/logo14.jpg')},
-// {log:require('../assets/clientimg/logo15.jpg')},
-{log:require('../assets/clientimg/logo16.jpg')},
-{log:require('../assets/clientimg/logo17.jpg')},
-{log:require('../assets/clientimg/logo18.jpg')},
-{log:require('../assets/clientimg/logo19.jpg')},
-{log:require('../assets/clientimg/logo20.jpg')},
-{log:require('../assets/clientimg/logo21.jpg')},
-{log:require('../assets/clientimg/logo22.jpg')},
-{log:require('../assets/clientimg/logo23.jpg')},
-{log:require('../assets/clientimg/logo24.jpg')},
-{log:require('../assets/clientimg/logo25.jpg')},
-{log:require('../assets/clientimg/logo26.jpg')},
-{log:require('../assets/clientimg/logo27.jpg')},
-{log:require('../assets/clientimg/logo28.jpg')},
-{log:require('../assets/clientimg/logo29.jpg')},
-{log:require('../assets/clientimg/logo30.jpg')},
-{log:require('../assets/clientimg/logo31.jpg')},
-{log:require('../assets/clientimg/logo32.jpg')},
-{log:require('../assets/clientimg/logo33.jpg')},
-{log:require('../assets/clientimg/logo34.jpg')},
-{log:require('../assets/clientimg/logo35.jpg')},
-{log:require('../assets/clientimg/logo36.jpg')}
 
+export const baseurl =()=>[
+    "http://localhost:4000/",
+]
+export const clientimg =()=>[
+{log:require('../assets/clientimg/ (1).jpg')},
+{log:require('../assets/clientimg/ (2).jpg')},
+{log:require('../assets/clientimg/ (3).jpg')},
+{log:require('../assets/clientimg/ (4).jpg')},
+{log:require('../assets/clientimg/ (5).jpg')},
+{log:require('../assets/clientimg/ (6).jpg')},
+{log:require('../assets/clientimg/ (7).jpg')},
+{log:require('../assets/clientimg/ (8).jpg')},
+{log:require('../assets/clientimg/ (9).jpg')},
+{log:require('../assets/clientimg/ (10).jpg')},
+{log:require('../assets/clientimg/ (11).jpg')},
+{log:require('../assets/clientimg/ (12).jpg')},
+{log:require('../assets/clientimg/ (13).jpg')},
+{log:require('../assets/clientimg/ (14).jpg')},
+{log:require('../assets/clientimg/ (16).jpg')},
+{log:require('../assets/clientimg/ (17).jpg')},
+{log:require('../assets/clientimg/ (18).jpg')},
+{log:require('../assets/clientimg/ (19).jpg')},
+{log:require('../assets/clientimg/ (20).jpg')},
+{log:require('../assets/clientimg/ (21).jpg')},
+{log:require('../assets/clientimg/ (22).jpg')},
+{log:require('../assets/clientimg/ (23).jpg')},
+{log:require('../assets/clientimg/ (24).jpg')},
+{log:require('../assets/clientimg/ (25).jpg')},
+{log:require('../assets/clientimg/ (26).jpg')},
+{log:require('../assets/clientimg/ (27).jpg')},
+{log:require('../assets/clientimg/ (28).jpg')},
+{log:require('../assets/clientimg/ (29).jpg')},
+{log:require('../assets/clientimg/ (30).jpg')},
+{log:require('../assets/clientimg/ (31).jpg')},
+{log:require('../assets/clientimg/ (32).jpg')},
+{log:require('../assets/clientimg/ (33).jpg')},
+{log:require('../assets/clientimg/ (34).jpg')},
+{log:require('../assets/clientimg/ (35).jpg')},
+{log:require('../assets/clientimg/ (36).jpg')},
+// {log:require('../assets/clientimg/(37).jpg')},
+{log:require('../assets/clientimg/(38).jpg')},
+{log:require('../assets/clientimg/(39).jpg')},
+{log:require('../assets/clientimg/(40).jpg')},
+{log:require('../assets/clientimg/(41).jpg')},
+{log:require('../assets/clientimg/(42).jpg')},
+{log:require('../assets/clientimg/(43).jpg')},
+{log:require('../assets/clientimg/(44).jpg')},
+{log:require('../assets/clientimg/(45).jpg')},
+{log:require('../assets/clientimg/(46).jpg')},
+{log:require('../assets/clientimg/(47).jpg')},
+{log:require('../assets/clientimg/(48).jpg')},
+{log:require('../assets/clientimg/(49).jpg')},
+{log:require('../assets/clientimg/(50).jpg')},
+{log:require('../assets/clientimg/(51).jpg')},
+{log:require('../assets/clientimg/(52).jpg')},
+{log:require('../assets/clientimg/(53).jpg')},
+{log:require('../assets/clientimg/(54).jpg')},
+{log:require('../assets/clientimg/(55).jpg')},
+{log:require('../assets/clientimg/(56).jpg')},
+
+ 
 ]
 
 export const background=()=>[
@@ -93,7 +117,37 @@ export const food=()=>[
 
 export const housekeeping=()=>[
 
-    `${require('../assets/background/home.png')}`,
+    `${require('../assets/housekeeping/ (1).jpeg')}`,
+    `${require('../assets/housekeeping/ (2).jpeg')}`,
+    `${require('../assets/housekeeping/ (3).jpeg')}`,
+    `${require('../assets/housekeeping/ (4).jpeg')}`,
+    `${require('../assets/housekeeping/ (5).jpeg')}`,
+    `${require('../assets/housekeeping/ (6).jpeg')}`,
+    `${require('../assets/housekeeping/ (7).jpeg')}`,
+    `${require('../assets/housekeeping/ (8).jpeg')}`,
+    `${require('../assets/housekeeping/ (9).jpeg')}`,
+    `${require('../assets/housekeeping/ (10).jpeg')}`,
+    `${require('../assets/housekeeping/ (11).jpeg')}`,
+    `${require('../assets/housekeeping/ (12).jpeg')}`,
+    `${require('../assets/housekeeping/ (13).jpeg')}`,
+    `${require('../assets/housekeeping/ (14).jpeg')}`,
+    `${require('../assets/housekeeping/ (15).jpeg')}`,
+  
+ 
+    
+]
+
+export const security=()=>[
+
+    `${require('../assets/security/(1).jpeg')}`,
+    `${require('../assets/security/(2).jpeg')}`,
+    `${require('../assets/security/(3).jpeg')}`,
+    `${require('../assets/security/(4).jpeg')}`,
+    `${require('../assets/security/(5).jpeg')}`,
+    `${require('../assets/security/(6).jpeg')}`,
+    `${require('../assets/security/(7).jpeg')}`,
+    `${require('../assets/security/(8).jpeg')}`,
+    `${require('../assets/security/(9).jpeg')}`,
   
  
     
@@ -176,10 +230,6 @@ export const cleaning=()=>[
     `${require('../assets/cleaning/ (3).jpeg')}`,
     `${require('../assets/cleaning/ (4).jpeg')}`,
     `${require('../assets/cleaning/ (5).jpeg')}`,
-  
-  
-  
- 
     
 ]
 

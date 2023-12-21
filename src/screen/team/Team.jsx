@@ -6,7 +6,7 @@ import CardM from "../../component/card/Card";
 
 import Slider from "react-slick";
 
-import { useEffect,useState } from "react";
+import { useEffect, useState } from "react";
 
 const Team = () => {
   const backgroundimg = background();
@@ -21,8 +21,8 @@ const Team = () => {
     Contactsection,
   } = useNavRef();
 
-  const [slideview,setslideview]=useState(2)
-  const [slidecount,setslidecount]=useState(2)
+  const [slideview, setslideview] = useState(2);
+  const [slidecount, setslidecount] = useState(2);
   useEffect(() => {
     // Function to update slideview and slidecount based on window.innerWidth
     const updateSlideValues = () => {
@@ -34,23 +34,23 @@ const Team = () => {
         setslidecount(2);
       }
     };
-  
+
     // Initial update
     updateSlideValues();
-  
+
     // Event listener for window resize
-    window.addEventListener('resize', updateSlideValues);
-  
+    window.addEventListener("resize", updateSlideValues);
+
     // Clean up the event listener on component unmount
     return () => {
-      window.removeEventListener('resize', updateSlideValues);
+      window.removeEventListener("resize", updateSlideValues);
     };
   }, []);
 
   const settings = {
     dots: true,
     infinite: true,
-    
+
     slidesToShow: slideview,
     slidesToScroll: slidecount,
     arrows: true,
@@ -98,7 +98,7 @@ const Team = () => {
                   name={"Mr Jinu John "}
                   position={"Operation Manager"}
                   qutos={
-                    "orchestrates the strategic direction of Home Tech Services, ensuring that every aspect aligns with our mission and goals."
+                    " oversees the seamless execution of our services, ensuring optimal efficiency and client satisfaction."
                   }
                 />
 
@@ -107,16 +107,41 @@ const Team = () => {
                   name={"Mr Babu V"}
                   position={"HR"}
                   qutos={
-                    "orchestrates the strategic direction of Home Tech Services, ensuring that every aspect aligns with our mission and goals."
+                    " Responsible for our talented workforce, ensures a harmonious work environment, attracting and retaining the best talent."
                   }
                 />
 
-             <CardM
+                <CardM
                   photo={backgroundimg[11]}
-                  name={"Mr Babu V"}
+                  name={"Mr Redhulal C V"}
                   position={"HR"}
                   qutos={
-                    "orchestrates the strategic direction of Home Tech Services, ensuring that every aspect aligns with our mission and goals."
+                    "Responsible for our talented workforce, ensures a harmonious work environment, attracting and retaining the best talent."
+                  }
+                />
+                <CardM
+                  photo={backgroundimg[11]}
+                  name={"Mr Saleem Raja K"}
+                  position={"Accounts "}
+                  qutos={
+                    " Weaving financial strategies with a personal touch. Bringing numbers to life, Ensures a seamless financial journey for our clients."
+                  }
+                />
+                <CardM
+                  photo={backgroundimg[11]}
+                  name={"Mr Nagarajan S "}
+                  position={"Auditing  "}
+                  qutos={
+                    "Optimize our soft services operations with our expert Uncover hidden efficiencies and elevate service quality through our comprehensive audits."
+                  }
+                />
+
+                <CardM
+                  photo={backgroundimg[11]}
+                  name={"Mohamed Ibrahim L A Z "}
+                  position={"Client Relations Specialist "}
+                  qutos={
+                    " Focuses on nurturing strong relationships with our clients, understanding their unique requirement and dedicated to providing exceptional support and addressing client needs."
                   }
                 />
               </Slider>
@@ -140,7 +165,7 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style,   color:"black " }}
+      style={{ ...style, color: "black " }}
       onClick={onClick}
     />
   );
@@ -151,8 +176,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, color:"black"}}
-
+      style={{ ...style, color: "black" }}
       onClick={onClick}
     />
   );
